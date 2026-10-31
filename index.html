@@ -1,227 +1,399 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  body {
-  margin: 0px 25px 0px 25px;
-}
-.accordion {
-  background-color: #FFF;
-  color: #000;
-  cursor: pointer;
-  padding: 2px;
-  width: 100%;
-  border: 1px solid #000;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
-
-.active, .accordion:hover {
-  background-color: #ccc;
-}
-
-.accordion:after {
-  content: '\002B';
-  color: #777;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
-}
-
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-h6 {text-align: center;}
-h5 {text-align: center;}
-h4 {text-align: center;}
-</style>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- The primary blue link text shown on search engines (Keep under 60 characters) -->
     <title>Hanns Madrid</title>
-  </head>
-  <body>
-    <p><h4><em>Hanns Madrid | @HannsMadrid | #HannsMadrid</em></h4></p>
-  <hr>
-    <p><h4><u>HANNS MADRID</u></h4></p>
 
-  <details>
-  <summary>Hanns Madrid</summary>
-  <p>IT professional. ( Arq. Eng. Dev. Adm. )</p>
-  </details>
-  <p><b>Note:</b> being updated.</p>
-  
-  <details>
-  <summary>Personal</summary>
-    <p>shares and other stuff. contact me. <strike>login.</strike></p>
-  </details>
-  <p><b>Note:</b> some features disabled temporarily.</p>
-  
-  <details>
-  <summary>Professional</summary>
-  <p>see my resume. see my active projects. join my projects. access shares. contact me. <strike>login.</strike></p>
-  </details>
-  <p><b>Note:</b> some features disabled temporarily.</p>
-  
-  <details>
-  <summary>Business</summary>
-  <p>need help with a project. contact me. <strike>login.</strike></p>
-  </details>
-  <p><b>Note:</b> some features disabled temporarily.</p>
-  
- <!-- <hr>
-    <p><h4><u>projects</u></h4></p>
-    <p><ol>
-      <strike><li><a href="https://hannsmadrid.github.io/">code</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">machine learning</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">ai</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">ar</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">vr</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">robotics</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">drones | nano drones</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">blockchain</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">cryptography</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">cyber security</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">cryptocurrency mining</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">next gen liquid cooled custom systems</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">next gen led illuninated custom systems</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">quantum</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">cinematography and video production</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">graphics, animation and 3d</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">audio production and engineering</a></li></strike>
-      <strike><li><a href="https://hannsmadrid.github.io/">high performance vehiche computing</a></li></strike>
+<!-- The summary paragraph snippet shown below your link (Keep under 160 characters) -->
+<meta name="description" content="Hanns Madrid | @HannsMadrid | #HannsMadrid | Hanns Madrid's software test site.">
 
-    </ol></p>
-<hr>-->
+<!-- Open Graph tags (Controls how your website looks when shared on X, LinkedIn, or Facebook) -->
+<meta property="og:title" content="Hanns Madrid">
+<meta property="og:description" content="IT Professional.">
+<meta property="og:image" content="https://hannsmadrid.gitlab.io">
+<meta property="og:url" content="https://hannsmadrid.gitlab.io">
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 
-<p><h4><u>MY SOFTWARE AND APPS</u></h4></p>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-<!--
-<button class="accordion">LINUX</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<br>
-<button class="accordion">MacOS</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<br>
-<button class="accordion">WINDOWS</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<br>
-<button class="accordion">iOS/iPadOS</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<br>
-<button class="accordion">ANDROID</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
--->
+        body {
+            background-color: #1a1b1e;
+            color: #f2f3f5;
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+            padding-bottom: 80px; 
+        }
 
-<br>
+        #game-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1; 
+            pointer-events: none;
+            display: block;
+        }
 
-<p><em>* DUE TO CHANGES IN INTERNET AND OTHER INTERNATIONAL RULES, SOME OF MY SOFTWARE and/or LINKS MAY BE BROKEN. WILL TRY TO GET THINGS BACK UP AND RUNNING AS TIME PERMITS.</em></p>
+        .main-wrapper {
+            position: relative;
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 40px;
+            background-color: rgba(43, 45, 49, 0.65);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
 
-<br>
-<br>
+        .profile-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
 
-<details>
-  <summary>LINUX</summary>
-  <p>Links below.</p>
-  <p>
-  <ul>
-  <li><strike>loadingappname</strike></li>
-  <li><a href="http://go.hannsmadrid.com/Dr5yocri3rl7Ev5xusoWrL45zef0udrUcesWaqutrAzoxljlfU4TifrL1POcibrE" target="_blank">AS0C14L</a>: A SOCIAL is an app that let's you use diffent social networks from a single app.</li>
-  <li><strike>loadingappname</strike></li>
-  </ul>
-  </p>
-  </details>
-  <p><b>SOFTWARE:</b> Download linux software.</p>
-
-<br>
-
-<details>
-  <summary>MacOS</summary>
-  <p>Links below.</p>
-  </details>
-  <p><b>SOFTWARE:</b> Download macos software.</p>
-
-<br>
-
-<details>
-  <summary>WINDOWS</summary>
-  <p>Links below.</p>
-  </details>
-  <p><b>SOFTWARE:</b> Download windows software.</p>
-
-<br>
-
-<details>
-  <summary>iOS/iPadOS</summary>
-  <p>Links below.</p>
-  </details>
-  <p><b>APPS:</b> Download ios/ipados apps.</p>
-
-<br>
-
-<details>
-  <summary>ANDROID</summary>
-  <p>Links below.</p>
-  </details>
-  <p><b>APPS:</b> Download android apps.</p>
-
-<br>
-
-<details>
-  <summary>OTHER</summary>
-  <p>Links below.</p>
-  </details>
-  <p><b>SOFTWARE & APPS:</b> Download other software and apps.</p>
-
-<br>
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
+        .profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Makes the image a perfect circle */
+    margin: 0 auto 20px auto;
+    border: 3px solid #ffffff;
+    display: block; /* Centers the image */
+    object-fit: cover; /* Prevents your photo from stretching or squishing */
 }
-</script>
 
-  </body>
-<footer>
-<br>
-<hr>
-  <h5><em>&#169; Hanns Madrid | 2023</em></h5>
-</footer>
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+            color: #ffffff;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: #b5bac1;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .profile-section {
+            margin-top: 35px;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: #ffffff;
+            margin-bottom: 12px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 5px;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #dcdddf;
+            margin-bottom: 15px;
+        }
+
+        .footer-container {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            padding: 12px 0;
+            z-index: 1000;
+            overflow: hidden;
+            background-color: rgba(43, 45, 49, 0.75); 
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 -8px 32px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .footer-container::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -150%;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(
+                to right, 
+                rgba(255, 255, 255, 0) 0%, 
+                rgba(255, 255, 255, 0.1) 50%, 
+                rgba(255, 255, 255, 0) 100%
+            );
+            transform: skewX(-25deg);
+            animation: chrome-shine 12s infinite ease-in-out;
+            pointer-events: none; 
+        }
+
+        @keyframes chrome-shine {
+            0% { left: -150%; }
+            20% { left: 150%; }
+            100% { left: 150%; }
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2; 
+        }
+
+        .footer-section { flex: 1; }
+        .links-box { text-align: left; }
+        .copyright-box { text-align: center; }
+        .icons-box { text-align: right; }
+
+        .copyright-text {
+            font-size: 0.8rem; 
+            font-weight: bold;
+            margin: 0;
+            color: #f2f3f5; 
+            letter-spacing: 0.5px;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-links li { display: inline-block; margin-right: 15px; }
+        .footer-links a {
+            font-size: 0.8rem;
+            text-decoration: none;
+            color: #b5bac1; 
+            transition: color 0.2s ease;
+        }
+        .footer-links a:hover { color: #ffffff; }
+
+        .icons-box a { display: inline-block; margin-left: 12px; transition: transform 0.2s ease; }
+        .icons-box svg {
+            width: 18px; height: 18px; fill: #b5bac1;
+            transition: fill 0.2s ease; vertical-align: middle;
+        }
+        .icons-box a:hover { transform: translateY(-2px); }
+        .icons-box a:hover svg { fill: #ffffff; }
+    </style>
+</head>
+<body>
+
+    <canvas id="game-canvas"></canvas>
+
+    <main class="main-wrapper">
+        <header class="profile-header">
+            <img src="HMprofile.jpg" alt="Profile Picture" class="profile-avatar">
+            <h1>Hanns Madrid</h1>
+            <div class="subtitle">IT Professional</div>
+        </header>
+
+        <section class="profile-section">
+            <h2>Hanns Madrid | @HannsMadrid | #HannsMadrid</h2>
+            <p>Hi there, I'm Hanns and I am from the future. But I like it here, so I come out to hang out here sometimes.<br>This is one of my software test lab platforms so you may see something crazy or even cool once in a while when I'm testing stuff.</p>
+        </section>
+          <section class="profile-section">
+            <h2>...</h2>
+            <p>To go to the main hub in my ecosystem go <a href="https://www.hannsmadrid.com" target="_blank" rel="noopener">here</a></p>
+        </section>
+        <section class="profile-section">
+            <h2>...</h2>
+            <p>To go to my software hub go <a href="https://hannsmadrid.github.io" target="_blank" rel="noopener">here</a></p>
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-section links-box">
+                <ul class="footer-links">
+                    <li><a href="/privacy.html">Privacy Policy</a></li>
+                    <li><a href="/terms.html">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section copyright-box">
+                <p class="copyright-text">
+                    &copy; @HannsMadrid | 2000 - <span id="current-year"></span>
+                    <script>
+                        try { document.getElementById("current-year").textContent = new Date().getFullYear(); } 
+                        catch(e) { console.error("Year injection failed:", e); }
+                    </script>
+                </p>
+            </div>
+            <div class="footer-section icons-box">
+                 <a href="https://facebook.com/hannsmadrid" aria-label="Facebook" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.8z"/></svg>
+            </a>
+            <a href="https://x.com/hannsmadrid" aria-label="X" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="https://instagram.com/hannsmadrid" aria-label="Instagram" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="https://youtube.com/hannsmadrid" aria-label="YouTube" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <a href="https://linkedin.com" aria-label="LinkedIn" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const canvas = document.getElementById('game-canvas');
+        const ctx = canvas.getContext('2d');
+
+        function resize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        window.addEventListener('resize', resize);
+        resize();
+
+        let mouse = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+        window.addEventListener('mousemove', (e) => {
+            mouse.x = e.clientX;
+            mouse.y = e.clientY;
+        });
+
+        const characterMap = [
+            "....HHHHHH....",
+            "...HHHHHHHH...",
+            "..HHSSSSHSHH..",
+            "..HSSSSSSSHH..",
+            "..SSSSSSSSSS..",
+            "..SSSSSSSSSS..",
+            "...SSSSSSSS...",
+            "....SSSSSS....",
+            "...TTTTTTTT...",
+            ".STTTTTTTTTTS.",
+            "..TTTTTTTTTT..",
+            "...PPPPPPPP...",
+            "....PPPPPP....",
+            "....PP..PP....",
+            "..SSS....SSS.."
+        ];
+
+        const palette = {
+            'H': '#5c4033', 
+            'S': '#fbe3d6', 
+            'T': '#ff0000', 
+            'P': '#704214'  
+        };
+
+        let character = {
+            x: 100,
+            y: 200,
+            pixelScale: 9,
+            speed: 0.04
+        };
+
+        let boxes = [
+            { x: 100, baseY: 140, offset: 0 },
+            { x: window.innerWidth - 180, baseY: 200, offset: 2 },
+            { x: 150, baseY: window.innerHeight - 240, offset: 4 }
+        ];
+
+        function renderLoop() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            const time = Date.now() * 0.003;
+
+            let dx = mouse.x - (character.x + 50);
+            let dy = mouse.y - (character.y + 60);
+            let dist = Math.sqrt(dx * dx + dy * dy);
+
+            let bob = 0;
+            let sway = 0;
+
+            if (dist > 15) {
+                character.x += dx * character.speed;
+                character.y += dy * character.speed;
+                bob = Math.abs(Math.sin(time * 5)) * 14;
+                sway = Math.sin(time * 5) * 0.12;
+            }
+
+            boxes.forEach(b => {
+                let y = b.baseY + Math.sin(time + b.offset) * 12;
+                ctx.save();
+                ctx.translate(b.x + 20, y + 20);
+                ctx.rotate(time * 0.2);
+                ctx.fillStyle = '#b88600';
+                ctx.fillRect(-16, -16, 40, 40);
+                ctx.fillStyle = '#ffbb00';
+                ctx.fillRect(-20, -20, 36, 36);
+                ctx.fillStyle = '#ffffff';
+                ctx.font = 'bold 20px sans-serif';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText('?', -2, -2);
+                ctx.restore();
+            });
+
+            ctx.save();
+            ctx.translate(character.x + 60, character.y + 60);
+            let skew = Math.min(Math.max(dx * 0.001, -0.2), 0.2);
+            ctx.transform(1, 0, skew, 1, 0, 0);
+            ctx.rotate(sway);
+
+            for (let r = 0; r < characterMap.length; r++) {
+                let rowStr = characterMap[r];
+                for (let c = 0; c < rowStr.length; c++) {
+                    let pixelChar = rowStr[c];
+                    let hexColor = palette[pixelChar];
+                    
+                    if (hexColor) {
+                        let px = (c - 7) * character.pixelScale;
+                        let py = (r - 7) * character.pixelScale - bob;
+
+                        ctx.fillStyle = 'rgba(0,0,0,0.2)';
+                        ctx.fillRect(px + 4, py + 4, character.pixelScale, character.pixelScale);
+
+                        ctx.fillStyle = hexColor;
+                        ctx.fillRect(px, py, character.pixelScale, character.pixelScale);
+                    }
+                }
+            }
+
+            let lookX = Math.min(Math.max(dx * 0.02, -3), 3);
+            let lookY = Math.min(Math.max(dy * 0.02, -3), 3);
+            
+            let exL = -2 * character.pixelScale;
+            let eyL = -4.5 * character.pixelScale - bob;
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(exL, eyL, 10, 12);
+            ctx.fillStyle = '#0066ff';
+            ctx.fillRect(exL + 2 + lookX, eyL + 2 + lookY, 5, 6);
+
+            let exR = 1 * character.pixelScale;
+            let eyR = -4.5 * character.pixelScale - bob;
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(exR, eyR, 10, 12);
+            ctx.fillStyle = '#0066ff';
+            ctx.fillRect(exR + 2 + lookX, eyR + 2 + lookY, 5, 6);
+
+            ctx.restore();
+            requestAnimationFrame(renderLoop);
+        }
+
+        renderLoop();
+    </script>
+</body>
 </html>
-<!--keep code basic-->
